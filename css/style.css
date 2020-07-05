@@ -20,3 +20,40 @@ a:hover{
 img{
 
 }
+/*header*/
+header{
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	padding: 20px 50px;
+	position: absolute;
+	align-items: center;
+	justify-content: space-between;
+}
+header img{
+	width: 200px;
+}	
+header nav{
+	display: flex;
+}
+nav li a{
+	color: #191c03;
+}
+nav li{
+	margin: 0 15px;
+}
+nav li:first-child{
+	margin-left: 0;
+}
+nav li:last-child{
+	margin-right: 0;
+}
+@media(max-width: 700px){
+	header{
+		flex-direction: column;
+	}
+	header img{
+		margin-bottom: 15px;
+	}
+}
