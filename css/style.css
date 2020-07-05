@@ -50,7 +50,7 @@ nav li:first-child{
 nav li:last-child{
 	margin-right: 0;
 }
-/*Versão movile do header*/
+/*Versão mobile do header*/
 @media(max-width: 700px){
 	header{
 		flex-direction: column;
@@ -64,6 +64,7 @@ nav li:last-child{
 	color: #fff;
 	display: flex;
 	min-height: 100vh;
+	text-align: center;
 	align-items: center;
 	flex-direction: column;
 	background-size: cover;
@@ -84,4 +85,13 @@ nav li:last-child{
 	border-radius: 4px;
 	background-color: #fff;
 	text-transform: uppercase;
+}
+/*Versão mobile do Hero*/
+@media(max-width: 700px){
+	.hero h1{
+		font-size: 2.5rem;
+	}
+	.hero h3{
+		font-size: 1.5rem;
+	}
 }
