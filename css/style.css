@@ -141,7 +141,7 @@ nav li:last-child{
 }
 /*Versão mobile do grid*/
 @media(max-width: 700px){
-	.conheca-o-hotel .grid li.small, .conheca-o-hotel .grid li.large{{
+	.conheca-o-hotel .grid li.small, .conheca-o-hotel .grid li.large{
 		flex-basis: 100%;
 	}	
 }
