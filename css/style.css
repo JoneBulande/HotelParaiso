@@ -145,3 +145,51 @@ nav li:last-child{
 		flex-basis: 100%;
 	}	
 }
+/* CARACTERISTICAS */
+.caracteristicas{
+	display: flex;
+	text-align: center;
+	padding: 100px 50px;
+	align-items: center;
+	flex-direction: column;
+	background-color: #191c03;
+}
+
+.caracteristicas h3{
+	color: #fff;
+	font-size: 2rem;
+	margin-bottom: 35px;
+}
+.caracteristicas p{
+	color: #fff;
+	max-width: 800px;
+	margin-bottom: 35px;
+}
+.caracteristicas hr{
+	height: 2px;
+	width: 200px;
+	border: none;
+	margin-bottom: 70px;
+	background-color: #fff;
+}
+.caracteristicas .grid{
+	width: 100%;
+	display: flex;
+} 
+.caracteristicas .grid li{
+	padding: 0 30px;
+	text-align: center;
+}
+.caracteristicas .grid li i{
+	color: #c3c63b;
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+.caracteristicas .grid li h4{
+	color: #c3c63b;
+	font-size: 1.5em;
+	margin-bottom: 30px;
+}
+.caracteristicas .grid li p{
+	color: #fff;
+}
