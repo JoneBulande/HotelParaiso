@@ -95,3 +95,28 @@ nav li:last-child{
 		font-size: 1.5rem;
 	}
 }
+/*CONHEÇA O HOTEL*/
+.conheca-o-hotel{
+	display: flex;
+	text-align: center;
+	padding: 100px 50px;
+	align-items: center;
+	flex-direction: column;
+}
+.conheca-o-hotel h3{
+	color: #191c03;
+	font-size: 2rem;
+	margin-bottom: 35px;
+}
+.conheca-o-hotel p{
+	color: #191c03;
+	max-width: 800px;
+	margin-bottom: 35px;
+}
+.conheca-o-hotel hr{
+	height: 2px;
+	width: 200px;
+	border: none;
+	margin-bottom: 70px;
+	background-color: #191c03;
+}
