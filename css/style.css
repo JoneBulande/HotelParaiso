@@ -249,3 +249,10 @@ nav li:last-child{
 	text-transform: uppercase;
 	background-color: #c3c63b;
 }
+/*Versão mobile do newsletter */
+@media(max-width: 700px){
+	.newsletter input{
+		flex-basis: 100%;
+		margin-bottom: 15px;
+	}
+}
